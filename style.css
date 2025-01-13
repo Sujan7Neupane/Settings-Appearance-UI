@@ -24,13 +24,6 @@ body {
   gap: 1rem;
 }
 
-.settings-light {
-  background-color: #fff;
-  padding: 1rem;
-  border-radius: 0.5rem;
-  min-width: 30%;
-}
-
 .settings-light .header,
 .settings-dark .header {
   display: inline-flex;
@@ -38,6 +31,13 @@ body {
   justify-content: space-between;
   margin-bottom: 0.5rem;
   border-bottom: 2px solid gray;
+}
+
+.settings-light {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  min-width: 30%;
 }
 
 .main-title {
@@ -154,15 +154,15 @@ body {
   margin-bottom: 1rem;
 }
 
-.name-wrapper small {
-  font-size: 12px;
-}
-
 .color-sec {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 1rem;
+}
+
+.name-wrapper small {
+  font-size: 12px;
 }
 
 .radio-wrapper input[type="radio"] {
@@ -245,18 +245,18 @@ body {
   transition: border-bottom 0.5s ease-in-out;
 }
 
-.settings-dark .language #lang {
-  background-color: rgb(16, 24, 37);
-  color: #fff;
+.settings-dark .theme-wrapper .dark {
+  background-color: rgb(34, 34, 34);
+  border: 2px solid rgb(79, 253, 87);
 }
 
 .settings-dark .theme-wrapper .light {
   background-color: rgb(237, 237, 237);
 }
 
-.settings-dark .theme-wrapper .dark {
-  background-color: rgb(34, 34, 34);
-  border: 2px solid rgb(79, 253, 87);
+.settings-dark .language #lang {
+  background-color: rgb(16, 24, 37);
+  color: #fff;
 }
 
 /* settings-dark-sec */
